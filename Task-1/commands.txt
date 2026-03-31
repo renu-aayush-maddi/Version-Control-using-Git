@@ -1,0 +1,4 @@
+git init
+git branch -M main
+git remote add origin https://github.com/renu-aayush-maddi/Version-Control-using-Git.git
+git add .
