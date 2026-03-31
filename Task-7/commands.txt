@@ -1,0 +1,11 @@
+git cherry-pick 
+
+
+OUTPUT:-
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-7> git checkout main 
+M       Task-6/commands.txt
+Switched to branch 'main'
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-7> git cherry-pick c655b39
+[main abbc681] Important fix
+ Date: Tue Mar 31 22:27:27 2026 +0530
+ 1 file changed, 0 insertions(+), 0 deletions(-)
