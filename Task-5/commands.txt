@@ -1,0 +1,10 @@
+git add .
+git commit -m"commit"
+
+git rebase -i HEAD~3
+
+pick 283a8fb # commit1
+pick 265d0bf # commit2
+pick 9788f81 # commit3:
+
+# Rebase 4d9918f..9788f81 onto 4d9918f (3 commands)
