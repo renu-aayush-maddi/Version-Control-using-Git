@@ -1,0 +1,10 @@
+cd Task-6
+git add .
+git commit -m "Task 6 Initial commit"
+git status
+git stash
+git stash pop
+git stash list
+
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-6> git stash
+Saved working directory and index state WIP on main: 86f3947 Task 6  Initial commit
