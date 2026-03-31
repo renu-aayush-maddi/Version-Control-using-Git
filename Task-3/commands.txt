@@ -1,0 +1,7 @@
+cd Task-3
+git add .
+git commit -m"Task-3 first commit "
+git restore file1.txt
+git add .
+git commit -m"bad commit"
+git revert HEAD
