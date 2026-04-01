@@ -1,0 +1,22 @@
+cd Task-4
+echo "Line" > conflict.txt
+git add .
+git commit -m"task4 first commit "
+git checkout -b branch1
+echo "Branch1 change" > conflict.txt
+git add .    
+git commit -m"Branch1 update"
+git checkout main  
+git checkout -b branch2
+echo "Branch2 change" > conflict.txt
+git commit -m"Branch2 update"
+git checkout branch1
+
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-4> git merge branch2
+warning: Cannot merge binary files: Task-4/conflict.txt (HEAD vs. branch2)
+Auto-merging Task-4/conflict.txt
+CONFLICT (content): Merge conflict in Task-4/conflict.txt
+Automatic merge failed; fix conflicts and then commit the result.
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-4> git add conflict.txt
+(base) PS C:\Users\renua\OneDrive\Desktop\GitHub\Task-4> git commit -m "Resolved merge conflict"
+[branch1 77c3291] Resolved merge conflict
