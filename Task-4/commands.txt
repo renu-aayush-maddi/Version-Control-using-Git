@@ -8,7 +8,7 @@ git add .
 git commit -m"Branch1 update"
 git checkout main  
 git checkout -b branch2
-echo "Branch2 change" > conflict.txt
+echo "Branch2 change" >  conflict.txt
 git commit -m"Branch2 update"
 git checkout branch1
 
